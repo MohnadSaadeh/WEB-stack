@@ -1,0 +1,17 @@
+
+.header > img {
+    height: 50px;
+}
+.cart > img {
+    height: 50px;
+}
+
+div p {
+background-color: blue;
+}
+ul li {
+    background-color: brown;
+}
+h1.title {
+    background-color: blue;
+}

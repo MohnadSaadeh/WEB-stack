@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Desert</title>
+    <link rel="stylesheet" href="stiling.css">
+    
+</head>
+<body>
+    <div class="header1">
+        <div>
+            <h1>Just<span>Desert</span></h1>
+        </div>
+        <div class="header_buttons">
+            <button onclick="delete_button(this)" class="join">Join</button>
+            <button class="login">Login</button>
+        </div>
+        
+    </div>
+    <div class="header2">
+        <div class="the_seaerch">
+            <input id="search_result" type="text" value="SEARCH">
+            <button onclick="notify(value)" class="go">GO</button>
+        </div>
+        <div>
+            <img class="des_pic_style" src="imgs/cake.png" alt="cakes">
+            <p>Cake</p>
+        </div>
+        <div> 
+            <img class="des_pic_style" src="imgs/ice-cream.png" alt="ice cream">
+            <p>Cookies</p>
+        </div>
+        <div>
+            <img class="des_pic_style" src="imgs/cookie.png" alt="cookies">
+            <p>Ice Cream</p>
+        </div>
+        <div>
+            <img class="des_pic_style" src="imgs/pie.png" alt="pies">
+            <p>Pie</p>
+        </div>
+    </div>
+
+    <div class="main_contaner">
+        <div class="col-1">
+            <h2>Reciepe of the day</h2>
+            <img src="imgs/orange-tart.jpg" alt="Reciepe">
+            <div class="des_details">
+                <div class="comment">
+                    <p>Orange Tea Jelly Tart by:<a href="#">yuripiano</a></p>
+                </div>
+                <div class="icons_likes">
+                    <img onclick="increase_orange_likes()" class="icons" src="imgs/heart.png" alt="hart"><p id="orange_cake_likes" >0</p>
+                </div>
+            </div>
+                <div class="link">
+                    <h3><a href="#">See Full Reciepe</a></h3>
+                </div>
+        </div>
+
+        <div class="col-2">
+            <h4>Recommended For You :</h4>
+            <hr>
+            <div class="macaronos">
+                <img src="imgs/macarons.jpg" alt="macarons">
+                <div class="des_details">
+                    <div class="comment">
+                        <p>Macaronos by:<a href="#">EmilieW</a></p>
+                    </div>
+                    <div class="icons_likes">
+                        <img onclick="increase_sec_likes()" src="imgs/heart.png" alt="hart"> <p id="sec_cake_likes"> 0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="macaronos">
+                <img src="imgs/creme-brulee.jpg" alt="creme brulee">
+                <div class="des_details">
+                    <div class="comment">
+                        <p>Creme brulee by:<a href="#">MarisaG</a></p>
+                    </div>
+                    <div class="icons_likes">
+                        <img onclick="increase_therd_likes()" src="imgs/heart.png" alt="hart"><p id="therd_cake_likes"> 0</p>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </div> 
+</body>
+        <script src="scripts.js"></script>
+</html>

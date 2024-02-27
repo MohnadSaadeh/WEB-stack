@@ -1,0 +1,29 @@
+h1, h2 {
+    display: inline;
+    background-color: cyan;
+    
+}
+
+label, input {
+    display: block;
+}
+
+p {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: lightgreen;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    vertical-align: top
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: darkslategrey;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 10px;
+    width: 80px;
+    
+}

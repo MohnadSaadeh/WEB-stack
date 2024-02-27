@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: cursive
+}
+header {
+    background-color: black;
+    color: aliceblue;
+    padding: 0px 10px 15px 10px;
+}
+.yorfeed > h2{
+    margin: 10px;
+    text-align: center;
+    font-weight: 800;
+}
+.main_Content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
+}
+
+/* LEFT SIDE CONTENT */
+.avatar {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+}
+.avatar_img > img{
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+.avatar_add , .avatar_name {
+    width: 150px;
+    margin: 20px 0px 10px 0px;
+    font-size: small;
+    text-align: center;
+    
+}
+.avatar_name > p {
+    font-weight: 900;
+    font-size: large;
+}
+/* ///// LEFT SIDE CONTENT */
+
+/* RIGHT SIDE CONTENT */
+.user_card{
+    border: 2px solid black;
+    width: 400px;
+    padding: 0px 30px 30px 30px;
+    margin: 0px 0px 30px 30px;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px 0px 0px ;
+}
+.user > h2 {
+    font-size: medium;
+}
+.comment {
+    padding: 30px 0px 0px 10px;
+}
+.b_like {
+    background-color: rgb(253, 253, 96);
+    color: black;
+    width: 50px;
+    box-shadow: 2px 2px 2px;
+}
+/* ////// RIGHT SIDE CONTENT */

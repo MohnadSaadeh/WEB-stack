@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input and Change</title>
+</head>
+<body>
+    <h1>On tnput - Example</h1>
+    <p>hellow my namw is <span id="name"></span></p>
+    <input type="text" name="name" placeholder="Your Name Here" oninput="setName(this)">
+
+    <h1>On Select - Example</h1>
+    <select name="food" onchange="slectOrder(this)">
+        <option >Pizza</option>
+        <option >Kebabs</option>
+        <option >Sandwich</option>
+        <option >Sushi</option>
+    </select>
+    <button onclick="order()">Select the Order</button>
+
+
+    <script src="thescripts.js"></script>
+</body>
+</html>

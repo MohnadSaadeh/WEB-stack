@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    align-items:center ;
+    height: 80px;
+    color: rgb(224, 224, 224);
+    font-family: monospace;
+    padding: 0px 10px 0px 10px;
+}
+
+.main_flex {
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.theHeader{
+    display: flex;
+    align-items:center ;
+    margin: 70px;
+    flex: 3;
+}
+h1{
+    margin-right:  30px;
+}
+
+nav > a{
+    color: aliceblue;
+    padding: 0px;
+    margin: 10px;
+    text-decoration:solid;
+}
+.SignOut_Button{
+background-color: rgb(129, 179, 245);
+color: rgb(255, 255, 255);
+font-weight: 700;
+margin: 15px;
+padding: 5px;
+
+}
+/* ------------------------------- */
+.icons {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.user_card{
+    border: 2px solid rgb(124, 124, 124);
+    margin-top: 50px;
+    }
+.user_header{
+    height: 80px;
+    background-color: lightblue;
+}
+.user_header > img {
+    background-color: black;
+    margin: 10px;
+    padding: 4px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.user_card > h2 {
+    margin-top: 60px;
+    padding: 0px 10px 0px 30px;
+}
+.user_card > p , i , a {
+    padding: 0px 10px 0px 30px;
+    font-size: small;
+}
+
+.header_education{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    height: 40px;
+    background-color: rgb(87, 87, 87);
+    font-family: monospace;
+}
+.user_card > p.Stack {
+    font-weight: 700;
+    font-size: large;
+}
+.user_card > p.date {
+    color: lightslategrey;
+}
+
+
+
+
+
+
+
+aside {
+    width: 300px; 
+    margin-top: 50px ; 
+}
+
+
+.requests {
+    border: 2px solid rgb(124, 124, 124);
+    margin-bottom: 40px;
+    
+    }
+.requests > header {
+    color: aliceblue;
+    height: 40px;
+    background-color: rgb(87, 87, 87);
+    font-family: monospace;
+    }
+header > h2 {
+font-size: medium;
+    }
+
+
+
+.names {
+    display: flex;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+.names > img {
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+    }
+.view_more {
+        font-size: small;
+        padding: 10px;
+        border-top: 2px solid rgb(124, 124, 124);
+    }
+
+.recordOne {
+    display: flex;
+    justify-content: space-evenly
+}
+/* .rec_name {
+    float: right;
+
+
+}
+.del_accip {
+    float: left;
+
+} */

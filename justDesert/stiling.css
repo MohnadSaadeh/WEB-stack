@@ -1,0 +1,143 @@
+*{
+margin: 0;
+padding: 0px;
+font-family: monospace;
+}
+.header1 { 
+    display: flex;
+    background-color: rgb(54, 54, 54);
+    justify-content: space-between;
+    align-items: center;
+}
+.header1 h1 {
+    margin: 10px 20px 10px 50px;
+    color: white;
+}
+.header1 h1 span {
+    color: rgb(255, 153, 0);
+}
+.header_buttons{
+    
+    /* display: flex; */
+    /* float: right; */
+    margin:  0px 10px 0px 10px;
+    padding:  0px 10px 0px 10px;
+}
+.join {
+    width: 80px;
+    height: 35px;
+    color: white;
+    background-color: rgb(33, 58, 201);
+    margin: 10px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-weight: 800;
+}
+.login {
+    width: 80px;
+    height: 35px;
+    color: black;
+    background-color: rgb(255, 153, 0);
+    margin: 10px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-weight: 800;
+}
+/* ------------------- */
+.header2 {
+    display: flex;
+    background-color: burlywood;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 10px 10px 10px;
+}   
+.the_seaerch{
+    display: flex;
+    justify-content: space-around;
+}
+.the_seaerch input {
+    border-radius: 15px 0px 0px 15px;
+    padding: 5px;
+}
+.the_seaerch button{
+    border-radius: 0px 15px 15px 0px;
+    color: white;
+    background-color:rgb(33, 58, 201);
+    padding: 5px;
+    width: 40px;
+    
+}
+
+.desert_imgs {
+    display: flex;
+    align-items: center;
+}
+.header2 p {
+    font-weight: 800;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.des_pic_style{
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 10px;
+    width: 70px;
+}
+
+/* ------------------------------- */
+
+.main_contaner {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 10px 10px 10px;
+}
+.col-1 {
+    background-color: rgb(230, 232, 235);
+    padding:  40px 20px 20px 20px;
+    
+}
+.col-1 h2  {
+    text-align: center;
+    color: rgb(68, 28, 248);
+    margin: 10px;
+}
+.col-1 img {
+    width: 560px;
+}
+.des_details {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.comment {
+    width: 200px;
+}
+.icons_likes {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.link h3 {
+    text-align: center;
+}
+
+/* --------------------- */
+.col-2 {
+    /* border-top: 2px solid rgb(230, 232, 235); */
+    width: 250px;
+    margin: 0px 10px 10px 10px;
+    padding: 0px 10px 10px 10px;
+}
+.macaronos img  {
+    width: 250px;
+    padding: 0px 0px 0px 0px;
+}
+.des_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px 50px 10px;
+}
+.icons_likes img  {
+    width: 22px;
+}
